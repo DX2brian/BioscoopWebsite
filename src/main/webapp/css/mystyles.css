@@ -1,0 +1,132 @@
+@CHARSET "ISO-8859-1";
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th, td {
+	padding: 8px;
+	widht: 100%;
+	height: 100%;
+}
+
+tr {
+	text-align: center;
+}
+
+.button {
+	width: 150px;
+	height: 25px;
+	background: #4CAF50;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+.bestelbutton {
+	display: block;
+	background: #4CAF50;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+.loggedbutton {
+	background: #4CAF50;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2
+}
+
+th {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.titel {
+	background-image: url("/images/filmrol.png");
+	text-align: center;
+	color: #4CAF50;
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-repeat: repeat-x;
+}
+
+.card {
+	box-shadow: 2px 2px 5px #333;
+	text-align: center;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+h1, h2 {
+	font-style: italic;
+}
+
+body {
+	margin: 100px 100px 100px 100px;
+}
+
+#fixedheader {
+	text-align: left;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	color: white;
+	background: #4CAF50;
+	padding: 20px;
+}
+
+#fixedfooter {
+	position: fixed;
+	text-align: center;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	color: white;
+	background: #4CAF50;
+	padding: 8px;
+}
+
+.tussenTabel {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tussenTabelRow {
+	background-color: #1FDCD9;
+	color: white;
+}
+
+button {
+	background-color: #4CAF50;
+	border-radius: 12px;
+	color: white;
+	padding: 10px 22px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+}
+
+

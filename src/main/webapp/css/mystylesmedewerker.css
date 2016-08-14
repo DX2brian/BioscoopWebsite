@@ -1,0 +1,113 @@
+@CHARSET "ISO-8859-1";
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    widht: 100%;
+    height: 100%;
+}
+
+tr {
+	text-align: center;
+}
+
+.button {
+    width: 150px;
+    height: 25px;
+    background: #FF0000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.bestelbutton {
+	display: block;
+    background: #FF0000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.loggedbutton {
+    background: #FF0000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #FF0000;
+    color: white;
+}
+
+.titel {
+	background: #FF0000;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.card {
+  box-shadow: 2px 2px 5px #333;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+h1 {
+	font-style: italic; 
+}
+
+body {
+	margin:100px 100px 100px 100px;
+}
+
+#fixedheader {
+	text-align: left;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color: white;
+	background:#FF0000;
+	padding:20px;
+}
+
+#fixedfooter {
+	position:fixed;
+	text-align: center;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:white;
+	background:#FF0000;
+	padding:8px;
+}
+
+button {
+	background-color: #FF0000;
+	border-radius: 12px;
+	color: white; 
+	padding : 10px 22px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}

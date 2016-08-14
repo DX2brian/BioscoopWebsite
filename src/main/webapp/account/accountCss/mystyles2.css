@@ -1,0 +1,160 @@
+@CHARSET "ISO-8859-1";
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th, td {
+	padding: 8px;
+	widht: 100%;
+	height: 100%;
+}
+
+tr {
+	text-align: center;
+}
+
+.button {
+	width: 150px;
+	height: 25px;
+	background: #E8F21D;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	color: black;
+	font-weight: bold;
+}
+
+.bestelbutton {
+	display: block;
+	background: #E8F21D;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	color: black;
+	font-weight: bold;
+}
+
+.loggedbutton {
+	background: #E8F21D;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	color: black;
+	font-weight: bold;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2
+}
+
+th {
+	background-color: #E8F21D;
+	color: black;
+}
+
+.titel {
+	background-image: url("/images/filmrol.png");
+	text-align: center;
+	color: #E8F21D;
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-repeat: repeat-x;
+}
+
+.card {
+	box-shadow: 2px 2px 5px #E8F21D;
+	text-align: center;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+h1, h2 {
+	font-style: italic;
+}
+
+body {
+	margin: 100px 100px 100px 100px;
+}
+
+#fixedheader {
+	text-align: left;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	color: black;
+	background: #E8F21D;
+	padding: 20px;
+}
+
+#fixedfooter {
+	position: fixed;
+	text-align: center;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	color: black;
+	background: #E8F21D;
+	padding: 8px;
+}
+
+.tussenTabel {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tussenTabelRow {
+	background-color: #1FDCD9;
+	color: black;
+}
+
+button {
+	background-color: #E8F21D;
+	border-radius: 12px;
+	color: black;
+	padding: 10px 22px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.specialcard {
+	text-align: center;
+  	box-shadow: 4px 4px 10px #E8F21D;
+  	text-align: center;
+  	padding-top: 10px;
+  	padding-bottom: 20%;
+}
+
+input {
+	width: 33%;
+	height: 33%;
+	border: none;
+    border-bottom: 2px solid #E8F21D;
+}
+
+#messagebox {
+  	text-align: center;
+  	margin-left: 500px;
+  	margin-right: 500px;
+}
+
+input[type=submit] {
+	background-color: #E8F21D;
+	border-radius: 12px;
+	color: black;
+	padding: 10px 22px;
+	font-size: 16px;
+	font-weight: bold;
+}

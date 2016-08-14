@@ -1,0 +1,35 @@
+@CHARSET "ISO-8859-1";
+
+.colourcard1 {
+	box-shadow: 2px 2px 5px #ff0000;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.colourcard2 {
+	box-shadow: 2px 2px 5px #f4f400;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.colourcard3 {
+	box-shadow: 2px 2px 5px #00b900;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.colourcard4 {
+	box-shadow: 2px 2px 5px #0000ff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.colourcard5 {
+	box-shadow: 2px 2px 5px #ff8000;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+}
